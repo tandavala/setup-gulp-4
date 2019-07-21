@@ -20,14 +20,25 @@
   },
   "homepage": "https://github.com/tandavala/setup-gulp-4#readme",
   "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
     "autoprefixer": "^9.6.1",
     "cssnano": "^4.1.10",
     "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
     "gulp-replace": "^1.0.0",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
-    "gulp-uglify": "^3.0.2"
+    "gulp-uglify": "^3.0.2",
+    "jquery-slim": "^3.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.1",
+    "normalize": "^0.3.1"
   }
 }

@@ -1,1 +1,0 @@
-{"version":3,"sources":["home.scss"],"names":[],"mappings":"AAEA,GACI,SAFS,CAGT,qBAJU,CAKV,YAAc","file":"home.css","sourcesContent":["$color1 : #00f;\n$color2: #f00;\nh1 {\n    color: $color2;\n    background-color: $color1;\n    padding: 0.5em;\n}"]}

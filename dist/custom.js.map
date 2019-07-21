@@ -1,0 +1,1 @@
+{"version":3,"sources":["_global.js","home.js"],"names":["hello","console","log"],"mappings":"AAAA;;;ACAA,IAAIA,KAAK,GAAG,SAARA,KAAQ,GAAM;AAACC,EAAAA,OAAO,CAACC,GAAR,CAAY,WAAZ;AAAyB,CAA5C","file":"custom.js","sourcesContent":["","let hello = () => {console.log('ola mundo')}"]}

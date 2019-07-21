@@ -31,7 +31,7 @@ Now open a ```gulpfile.js``` your editor add the follow line of code. but first 
 
 Gulp needs plugins bellow i will list some that i have used in this project.
 
-```- gulp-sourcemaps``` &mdash; maps the scss style back to the original scss file in the wen broswer dev tools.
-```- gulp-sass``` &mdash; runs autoprefixer and cssnano
-```-- gulp-prostcss ``` &mdash; adds vendor prefixes to css like ```-webkit-```
-```-- cssnano``` &mdash; minifies css
+- ```gulp-sourcemaps``` &mdash; maps the scss style back to the original scss file in the wen broswer dev tools.
+- ```gulp-sass``` &mdash; runs autoprefixer and cssnano
+- ```gulp-prostcss ``` &mdash; adds vendor prefixes to css like ```-webkit-```
+- ```cssnano``` &mdash; minifies css

@@ -51,7 +51,7 @@ a task in in gulp is basically a function that performs a specific porpose. so l
     npm install --save-dev autoprefixer cssnano gulp gulp-concat gulp-postcss gulp-replace gulp-sass gulp-sourcemaps gulp-uglify
 ```
 
-to know more about our to install Node.js package with ```npm`` refere to this [tutorial](https://www.sitepoint.com/beginners-guide-node-package-manager/)
+to know more about our to install Node.js package with ```npm``` refere to this [tutorial](https://www.sitepoint.com/beginners-guide-node-package-manager/)
 
  Now we have all the plugin and gulp package in our machine let's do some coding. open you gulpfile.js and do the following.
 
@@ -148,6 +148,7 @@ That way every time Gulp runs, the querystring will be different and you’ll ma
 This is the main Gulp task, which will automatically run if you type in ```gulp``` on the command line
 
 ```javascript
+    // default task
     exports.default = series(
         parallel(scssTask, jsTask),
         cacheBustTask,
@@ -156,6 +157,7 @@ This is the main Gulp task, which will automatically run if you type in ```gulp`
 ```
 
 ```javascript
+    // single task
     exports.jsTask = series(
         parallel(jsTask),
         watch
@@ -170,4 +172,4 @@ Now the configuration and all the necessary code is done to run the tasks do the
 
 # Inspirations
 
-[coder coder website](https://coder-coder.com/gulp-4-walk-through/)
+- [coder coder website](https://coder-coder.com/gulp-4-walk-through/)
